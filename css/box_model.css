@@ -1,0 +1,43 @@
+div {
+  height: 200px;
+  padding: 50px;
+  border: 5px solid black;
+
+}
+
+#first-div {
+  background-color: #39cccc;
+  max-width: 400px;
+}
+
+#second-div {
+  background-color: #ff4136;
+  max-width: 125px;
+  box-sizing: border-box;
+}
+
+#third-div {
+  width: 200px;
+  height: 180px;
+  background-color: deeppink;
+
+}
+#third-div > img {
+  width: 100%;
+
+}
+
+#fourth-div {
+  display: inline-block
+  width: 200px auto;
+  max-width: 900px
+  height: auto
+}
+
+#fourth-div > img {
+  width: 100%
+}
+
+p {
+  background-color: #7fdbff;
+}
